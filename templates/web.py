@@ -18,7 +18,7 @@ RECENT_SECONDS = 120
 LOGO_URL = "https://raw.githubusercontent.com/BaeGyee9/khaing/main/logo.png"
 
 # GitHub Template URL
-HTML_TEMPLATE_URL = "https://raw.githubusercontent.com/nyeinkokoaung404/zi-panel/main/templates/index.html"
+HTML_TEMPLATE_URL = "https://raw.githubusercontent.com/zivpn/web-panel/main/templates/index.html"
 
 # --- Localization Data ---
 TRANSLATIONS = {
