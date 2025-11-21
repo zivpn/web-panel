@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ZIVPN Telegram Bot - GitHub Version
-Downloaded from: https://github.com/nyeinkokoaung404/zi-panel/main/telegram/bot.py
+Downloaded from: https://github.com/zivpn/web-panel/main/telegram/bot.py
 """
 
 import telegram
