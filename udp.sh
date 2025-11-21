@@ -232,7 +232,7 @@ chmod 644 "$CFG" "$USERS"
 
 # ===== Download Web Panel from GitHub =====
 say "${Y}🌐 GitHub မှ Web Panel ဒေါင်းလုပ်ဆွဲနေပါတယ်...${Z}"
-curl -fsSL -o /etc/zivpn/web.py "https://raw.githubusercontent.com/nyeinkokoaung404/zi-panel/main/templates/web.py"
+curl -fsSL -o /etc/zivpn/web.py "https://raw.githubusercontent.com/zivpn/web-panel/main/templates/web.py"
 if [ $? -ne 0 ]; then
   echo -e "${R}❌ Web Panel ဒေါင်းလုပ်ဆွဲ၍မရပါ - Fallback သုံးပါမယ်${Z}"
   # Fallback web panel code would go here
@@ -240,7 +240,7 @@ fi
 
 # ===== Download Telegram Bot from GitHub =====
 say "${Y}🤖 GitHub မှ Telegram Bot ဒေါင်းလုပ်ဆွဲနေပါတယ်...${Z}"
-curl -fsSL -o /etc/zivpn/bot.py "https://raw.githubusercontent.com/nyeinkokoaung404/zi-panel/main/telegram/bot.py"
+curl -fsSL -o /etc/zivpn/bot.py "https://raw.githubusercontent.com/zivpn/web-panel/main/telegram/bot.py"
 if [ $? -ne 0 ]; then
   echo -e "${R}❌ Telegram Bot ဒေါင်းလုပ်ဆွဲ၍မရပါ - Fallback သုံးပါမယ်${Z}"
   # Fallback bot code would go here
@@ -451,7 +451,7 @@ say "${Y}🔗 Connection Manager ထည့်သွင်းနေပါတယ�
 
 # ===== Connection Manager (From specified URL) =====
 say "${Y}🔗 Connection Manager Script ကို GitHub မှ ဒေါင်းနေပါတယ်...${Z}"
-CONN_MGR_URL="https://raw.githubusercontent.com/nyeinkokoaung404/zi-panel/refs/heads/main/connection/connection_manager.py"
+CONN_MGR_URL="https://raw.githubusercontent.com/zivpn/web-panel/main/connection_manager.py"
 if ! curl -fsSL -o "$CONN_MGR_PATH" "$CONN_MGR_URL"; then
   echo -e "${R}❌ Connection Manager ဒေါင်းလုပ်ဆွဲ၍မရပါ — Fallback Logic ကို သုံးပါမယ်။${Z}"
 fi
